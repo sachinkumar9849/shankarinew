@@ -1,0 +1,614 @@
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+@media (max-width: 1199px) {
+  body {
+    overflow-x: hidden !important;
+  }
+}
+@media (min-width: 990px) {
+  .side-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .job_list-wrapp {
+    margin-top: -53px;
+  }
+  /* mobile menu start */
+  ul.menu_ul.d-flex.justify-content-end.align-items-center.w-100.p-0 {
+    display: none !important;
+  }
+  .side-bar {
+    background: #1b0664;
+    backdrop-filter: blur(15px);
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: -300px;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+  }
+  .side-bar::-webkit-scrollbar {
+    width: 0px;
+  }
+  .side-bar.active {
+    left: 0;
+    position: fixed;
+    z-index: 999999;
+  }
+  .side-bar .menu_mobile {
+    width: 100%;
+    margin-top: 30px;
+    z-index: 99999999;
+  }
+  .side-bar .menu_mobile .item a {
+    display: block;
+    padding: 5px 30px;
+    line-height: 40px;
+  }
+  .side-bar .menu_mobile .item a:hover {
+    background: #147e75;
+    transition: 0.3s ease;
+    color: white;
+  }
+  .side-bar .menu_mobile .item i {
+    margin-right: 15px;
+  }
+  .side-bar .menu_mobile .item a .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 9px 20px;
+    transition: 0.3s ease;
+  }
+  .menu-btn i.fas.fa-bars {
+    color: #088738;
+  }
+  .side-bar .menu_mobile .item .sub-menu {
+    background: #150354;
+    display: none;
+  }
+  .side-bar .menu_mobile .item .sub-menu a {
+    padding-left: 80px;
+  }
+  .rotate {
+    transform: rotate(90deg);
+  }
+  .close-btn {
+    position: absolute;
+    font-size: 23px;
+    right: 0px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .menu-btn,
+  .side-bar {
+    z-index: 99;
+    position: fixed;
+  }
+  .menu-btn {
+    right: 16px;
+    top: 16px;
+    font-size: 33px;
+    color: white;
+    z-index: 999999;
+    background: #1b0664;
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+  }
+  .menu_mobile .item a,
+  .side-bar i.fa {
+    color: white;
+  }
+  nav.navbar {
+    position: relative;
+    background: blue;
+    background: white;
+  }
+  nav.nav.navbar.sticky-bar {
+    background: white;
+  }
+  nav.nav.navbar.sticky-bar .navbar-logo img {
+    width: 200px;
+    height: 81px;
+  }
+  .slider_content h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .slider_content {
+    width: 70%;
+  }
+  /* mobile menu end */
+  .logo_mobile img {
+    width: 191px;
+  }
+  .job_wrapp {
+    min-height: 255px;
+    max-height: 255px;
+  }
+  .top_header {
+    position: fixed;
+    z-index: 9;
+  }
+  section {
+    padding: 75px 0;
+  }
+  .about_wrapp {
+    margin-top: 68px;
+  }
+  hr.custome_hr {
+    margin: 20px 0;
+  }
+  section.destination {
+    margin-top: 0;
+  }
+  .destination_slider {
+    margin-top: 0;
+  }
+  section.message.bg_gray .about_wrapp {
+    margin-top: 24px;
+  }
+  .section_title {
+    margin-bottom: 20px;
+    width: 100% !important;
+    text-align: center;
+  }
+  section.banner {
+    margin-top: 97px;
+  }
+  .about_row-wrapp {
+    margin-top: -367px;
+    margin-bottom: 60px;
+  }
+  .category_side-job,
+  .category_block_item {
+    width: 50%;
+  }
+  .nepal_information-img img {
+  }
+  .nepal_information-img img {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .nepal_information-img::before {
+    display: none;
+  }
+  .nepal_information-block {
+    padding: 67px;
+  }
+  .nepal_information-block h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .nepal_information-img img {
+    height: 292px;
+  }
+  .banner_content {
+    width: 80%;
+  }
+  .wrapp_message {
+    margin-top: unset;
+    width: unset;
+    margin-top: 20px;
+}
+.chairman {
+  margin-bottom: 10px !important;
+}
+.form_wrapp {
+  margin-top: 39px;
+}
+.form_wrapp {
+
+  padding: 30px;
+}
+section.slider_homepage {
+
+  margin-top: 0;
+}
+ul.five_itme_list li:nth-child(2), ul.five_itme_list li:nth-child(4),ul.five_itme_list li:nth-child(3) {
+  margin-top: unset;
+  text-align: center;
+}
+li.animation_custom {
+  width: 48%;
+  text-align: center;
+}
+ul.five_itme_list.d-flex.mt-5 {
+  flex-wrap: wrap;
+}
+.mobile_padding {
+  padding-bottom: 50px;
+}
+section.contact::before {
+
+  width: 120%;
+}
+.mission_left-block {
+  max-width: unset;
+  /* margin-left: auto; */
+  /* padding: 0 52px; */
+  margin: 0 47px;
+}
+.contact-right-img {
+  margin-top: 50px;
+}
+}
+@media (max-width: 767px) {
+   /* mobile menu start */
+   ul.menu_ul.d-flex.justify-content-end.align-items-center.w-100.p-0 {
+    display: none !important;
+  }
+  .side-bar {
+    background: #00a99d;
+    backdrop-filter: blur(15px);
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: -300px;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+  }
+  .side-bar::-webkit-scrollbar {
+    width: 0px;
+  }
+  .side-bar.active {
+    left: 0;
+    position: fixed;
+    z-index: 999999;
+  }
+  .side-bar .menu_mobile {
+    width: 100%;
+    margin-top: 30px;
+    z-index: 99999999;
+  }
+  .side-bar .menu_mobile .item a {
+    display: block;
+    padding: 5px 30px;
+    line-height: 40px;
+    font-size: 21px;
+  }
+  .side-bar .menu_mobile .item a:hover {
+    background: #158980;
+    transition: 0.3s ease;
+    color: white;
+  }
+  .side-bar .menu_mobile .item i {
+    margin-right: 15px;
+  }
+  .side-bar .menu_mobile .item a .dropdown {
+    position: absolute;
+    right: 0;
+    margin: 9px 20px;
+    transition: 0.3s ease;
+  }
+  .menu-btn i.fas.fa-bars {
+    color: #088738;
+  }
+  .side-bar .menu_mobile .item .sub-menu {
+    background: #1a67a5;
+    display: none;
+  }
+  .side-bar .menu_mobile .item .sub-menu a {
+    padding-left: 80px;
+  }
+  .rotate {
+    transform: rotate(90deg);
+  }
+  .close-btn {
+    position: absolute;
+    font-size: 23px;
+    right: 0px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .menu-btn,
+  .side-bar {
+    z-index: 99;
+    position: fixed;
+  }
+  .menu-btn {
+    right: 16px;
+    top: 17px;
+    font-size: 33px;
+    color: white;
+    z-index: 999999;
+    background: #f7931e;
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+  }
+  .menu_mobile .item a,
+  .side-bar i.fa {
+    color: white;
+  }
+  nav.navbar {
+    position: relative;
+    background: blue;
+    background: white;
+  }
+  nav.nav.navbar.sticky-bar {
+    background: white;
+  }
+  nav.nav.navbar.sticky-bar .navbar-logo img {
+    width: 200px;
+    height: 81px;
+  }
+  .slider_content h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .slider_content {
+    width: 70%;
+  }
+  /* mobile menu end */
+  .section_text p {
+    width: 90%;
+ 
+}
+  textarea#message {
+    height: 129px;
+
+}
+  .padding_all {
+    padding: 41px;
+}
+  .padding {
+    padding: 61px 0;
+}
+  .header-logo img.img-fluid {
+    width: 288px;
+  
+}
+  .header_section {
+    position: fixed;
+    z-index: 9;
+    background: white;
+    width: 100%;
+}
+section.slider_homepage {margin-top: 0px;}
+  .header_section_item.d-flex {
+    display: none !important;
+}
+
+nav.cssmenu {
+  
+  display: none !important;
+}
+  .about_row-wrapp {
+    margin-top: -331px;
+  }
+  .footer-top {
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+
+  .footer-top .widget-title {
+    margin-bottom: 12px;
+
+    margin-top: 25px;
+  }
+  .message_img::before {
+    top: -11px;
+
+    width: 13%;
+
+    height: 396px;
+  }
+  .message_img img {
+    height: 372px;
+    padding: 0;
+  }
+  .about_img.position-relative {
+    padding: 0;
+  }
+
+  /* .video_wrapp {
+    display: none !important;
+} */
+  .event_date span {
+    font-size: 13px;
+
+    padding: 5px;
+    font-weight: 300;
+  }
+  .event_date {
+    font-size: 29px;
+    height: 86px;
+
+    min-width: 86px;
+    max-width: 86px;
+  }
+  .report_download a {
+    right: 0;
+    bottom: 0;
+
+    padding: 6px 9px;
+
+    font-size: 10px;
+    top: unset;
+  }
+  .report_content {
+    margin-left: 0;
+  }
+  .report_img {
+    background: unset;
+    min-width: unset;
+    max-width: unset;
+    border: unset;
+    min-height: unset;
+    max-height: unset;
+  }
+  .team_text {
+    padding: 23px;
+  }
+  section.mission.bg_gray .section_title.padding_y {
+    margin-top: 20px;
+  }
+  .mission_img img {
+    padding: 65px;
+  }
+  .img_one-about img {
+    width: 100%;
+  }
+
+  section {
+    padding: 80px 0;
+  }
+
+  header.header.sticky-bar .logo_top img {
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    object-fit: cover;
+  }
+  .logo_top img,
+  header.header.sticky-bar .logo_top img {
+    width: 80px;
+  }
+
+  .slide .slide__content--headings h2 {
+    color: white;
+    font-size: clamp(25px, 4vw, 65px);
+    line-height: clamp(35px, 4vw, 75px);
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+  }
+  .shape img {
+    top: -21px;
+  }
+  section,
+  section#contact {
+    padding: 60px 0;
+  }
+  .contact-content h6 a,
+  .contact-content h6 {
+    font-size: 22px;
+  }
+  footer p {
+    padding: 0;
+  }
+  footer {
+    flex-direction: column;
+    padding: 65px 0;
+  }
+  .experience h3 {
+    padding: 16px 33px;
+    font-weight: 500;
+
+    font-size: 21px;
+  }
+  .nepal_information-img img {
+    height: 385px;
+}
+.nepal_information-block {
+  padding: 33px;
+}
+.category_side-job, .category_block_item {
+  width: 100%;
+}
+.section_title h5 {
+  margin-bottom: 5px;
+}
+.team_wrapp {
+  margin-bottom: 72px;
+}
+.testimonial_block.text-center {
+ 
+  padding: 22px;
+}
+.banner_content {
+  width: 93%;
+}
+.job_detail-block {
+
+  padding: 31px;
+  margin-bottom: 20px;
+}
+li.animation_custom {
+  width: 50%;
+  margin: 0 auto;
+}
+.about_img img {
+  height: 300px;
+
+}
+section.learning_sec .facilities-img img,.facilities-img img {
+  min-height: 400px;
+  max-height: 400px;
+
+}
+.learning_ul ul li:nth-child(1) {
+  margin-left: 26px;
+}
+.section_title {
+  margin-bottom: 11px;
+ 
+}
+.facilities_list ul li {
+  width: 49%;
+  text-align: center;
+  margin: 0 auto;
+}
+.facilities_list ul li:nth-child(6),.facilities_list ul li:nth-child(3),.facilities_list ul li:nth-child(4),.facilities_list ul li:nth-child(5){
+  margin-top: unset;
+}
+.facilities_list ul li:nth-child(6) {
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+.facilities_list ul li:nth-child(4) {
+ 
+  margin-left: 0;
+  margin: 0 auto;
+}
+.facilities_list ul li:nth-child(5) {
+  margin: 0 auto;
+}
+.message_left.w-50 ,.message_right.w-50{
+  width: 100% !important;
+}
+.message_wra.d-flex {
+  display: block !important;
+}
+.mission_left-block {
+
+  margin: 0 28px;
+}
+.facilities_list ul li:nth-child(2) {
+  margin-top: 29px;
+}
+.flip-card-front img {
+  width: 179px;
+}
+ul.five_itme_list img.img-fluid {
+  min-width: 172px;
+  max-width: 172px;
+
+}
+.facilities_list ul li:nth-child(3){
+  margin-top: -54px;
+}
+.facilities_list ul li:nth-child(4){
+  margin-top: -29px;
+}
+.facilities_list ul li:nth-child(5){
+  margin-top: -56px;
+}
+.facilities_list ul li:nth-child(6){
+  margin-top: -32px;
+}
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Thu Jan  1 03:00:00 1970
+ By Aleksey,,,
+Copyright 2000, 2004 , 2005Adobe Systems Incorporated. All Rights Reserved. U.S. Patent D454,582.Myriad is a registered trademark of Adobe Systems Incorporated.
+</metadata>
+<defs>
+<font id="RQVGEF+MyriadPro-Regular" horiz-adv-x="500" >
+  <font-face 
+    font-family="RQVGEF+MyriadPro-Regular"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="800"
+    descent="-200"
+    bbox="0 0 500 700"
+    underline-thickness="50"
+    underline-position="-250"
+    unicode-range="U+0020-002A"
+  />
+<missing-glyph 
+d="M0 0v700h500v-700h-500zM250 395l170 255h-340zM280 350l170 -255v510zM80 50h340l-170 255zM50 605v-510l170 255z" />
+    <glyph glyph-name=".notdef" 
+d="M0 0v700h500v-700h-500zM250 395l170 255h-340zM280 350l170 -255v510zM80 50h340l-170 255zM50 605v-510l170 255z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="1" 
+ />
+    <glyph glyph-name="asterisk" unicode="*" horiz-adv-x="415" 
+d="M269 685l60 -34l-95 -125v-2l151 20v-68l-151 18v-2l96 -120l-63 -36l-60 140h-2l-65 -141l-57 36l95 122v2l-148 -19v68l147 -19v2l-94 122l61 35l62 -139h2z" />
+  </font>
+</defs></svg>

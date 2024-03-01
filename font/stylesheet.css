@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'EELGEF+BeachBold';
+    src: url('EELGEFBeachBold.eot');
+    src: url('EELGEFBeachBold.eot?#iefix') format('embedded-opentype'),
+        url('EELGEFBeachBold.woff2') format('woff2'),
+        url('EELGEFBeachBold.woff') format('woff'),
+        url('EELGEFBeachBold.ttf') format('truetype'),
+        url('EELGEFBeachBold.svg#EELGEF+BeachBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
